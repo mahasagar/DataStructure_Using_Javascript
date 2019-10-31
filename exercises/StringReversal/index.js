@@ -1,7 +1,7 @@
 
-// function reverse(str){
-//     return str.split('').reduce((rev,char) => char+rev,'');
-// }
+function reverse(str){
+    return str.split('').reduce((rev,char) => char+rev,'');
+}
 
 
 // function reverse(str){
@@ -21,14 +21,14 @@
 //     return newStr;
 // }
 
-function reverse(str){
-    let newReverseStr = '';
-    for(let character of str){
-        newReverseStr = character + newReverseStr;
-        // debugger;
-    }
-    return newReverseStr;
-}
+// function reverse(str){
+//     let newReverseStr = '';
+//     for(let character of str){
+//         newReverseStr = character + newReverseStr;
+//         // debugger;
+//     }
+//     return newReverseStr;
+// }
 // reverse('sagar');
 
 module.exports = reverse;
